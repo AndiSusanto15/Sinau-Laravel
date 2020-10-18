@@ -14,3 +14,28 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('hello', function(){
+    return "hello Andi";
+});
+
+Route::get('/product/display', 'ProductController@showAll');
+Route::get('/product/save', 'ProductController@saveNew');
+Route::get('/product/{id}', 'ProductController@show');
+Route::get('/product/{categori_id}/{id}', 'ProductController@detail');
+
+Route::get('/pintu-masuk', function(){
+    return "Selamat datang di pintu masuk!";
+});
+
+Route::get('test', 'TestController@pintuMasuk');
+Route::get('test/{masuk?}', 'TestController@pintuMasuk'); // yang ini namanya optional route param tinggal tambahin ?
+
+Route::view('/juara', 'juara');
+
+Route::get('tampil-semua-produk', 'ProductController@showAllProduct');
+
+Route::resource('buku', 'BukuController');
+
+Route::get('redirect', 'BukuController@redirect');
+Route::get('redirect-lain', 'BukuController@redirectLain');
