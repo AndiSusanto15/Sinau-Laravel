@@ -47,3 +47,5 @@ Route::group(["prefix" => "latihan"], function() {
     Route::get("/kategori/{id}/restore", "CategoryController@restore");
     Route::get("/kategori/{id}/permanent-delete", "CategoryController@permanentDelete");
 });
+
+Route::resource('/anggota','AnggotaController');
