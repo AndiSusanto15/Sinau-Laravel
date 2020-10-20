@@ -2,6 +2,7 @@
 
 ## Tech Stack
 
+1. Laravel 5.8
 1. PHP 7.4
 1. Nginx 1.16
 1. MySQL 5.7
