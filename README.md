@@ -1,5 +1,10 @@
 # Sinau Laravel
 
+![index](ss-mas/index.png)
+![create](ss-mas/create.png)
+![success](ss-mas/success.png)
+![delete](ss-mas/delete.png)
+
 ## Tech Stack
 
 1. Laravel 5.8
