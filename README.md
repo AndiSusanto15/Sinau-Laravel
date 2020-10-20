@@ -1,8 +1,19 @@
 # Sinau Laravel
 
+### Index
+
 ![index](ss-mas/index.png)
+
+### Create
+
 ![create](ss-mas/create.png)
+
+### Success
+
 ![success](ss-mas/success.png)
+
+### Delete
+
 ![delete](ss-mas/delete.png)
 
 ## Tech Stack
