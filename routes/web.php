@@ -49,3 +49,5 @@ Route::group(["prefix" => "latihan"], function() {
 });
 
 Route::resource('/anggota','AnggotaController');
+
+Route::resource('/quote','QuotesController');
