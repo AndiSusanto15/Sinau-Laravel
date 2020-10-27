@@ -51,3 +51,6 @@ Route::group(["prefix" => "latihan"], function() {
 Route::resource('/anggota','AnggotaController');
 
 Route::resource('/quote','QuotesController');
+
+Route::resource('users', 'UserController');
+Route::put('users/resetpassword/{id}', 'UserController@reset_password')->name('users.resetpassword');
